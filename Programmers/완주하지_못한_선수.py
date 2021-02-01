@@ -1,3 +1,6 @@
+# https://programmers.co.kr/learn/courses/30/lessons/42576
+
+
 def solution(participant, completion):
     table = dict.fromkeys(participant, 0)
     for val in participant:
