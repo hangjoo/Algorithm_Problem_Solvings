@@ -8,7 +8,7 @@ connect = {i: [] for i in range(1, v + 1)}
 for _ in range(e):
     a, b, w = list(map(int, sys.stdin.readline().split()))
     connect[a].append((b, w))
-    
+
 
 dist = {i: inf for i in range(1, v + 1)}
 dist[start] = 0
