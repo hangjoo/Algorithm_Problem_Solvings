@@ -2,7 +2,7 @@ n = int(input())
 cache = [0 for _ in range(n)]
 
 cache[0] = 1
-if n > 0:
+if n > 1:
     cache[1] = 3
 for i in range(2, n):
     cache[i] = cache[i - 1] + 2 * cache[i - 2]
