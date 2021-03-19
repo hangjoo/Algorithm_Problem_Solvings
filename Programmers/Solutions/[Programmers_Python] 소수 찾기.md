@@ -27,7 +27,7 @@
 
 - 11과 011은 같은 숫자로 취급합니다.
 
-### 해설
+### 풀이
 
 ```python
 from itertools import permutations
