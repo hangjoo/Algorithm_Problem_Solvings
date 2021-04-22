@@ -57,7 +57,7 @@ while bfs:
 
 count = 0
 for party in party_list:
-    if not set(party) & set(true_man):
+    if not set(party) and set(true_man):
         count += 1
 
 print(count)
